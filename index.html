@@ -12,127 +12,111 @@
     />
     <title>Find it</title>
   </head>
+  <style>
+    .red {
+      background-color: red;
+    }
+    .green {
+      background-color: green;
+    }
+    .item {
+      padding: 15px 0 15px 0;
+    }
+    .item-btn {
+      border-radius: 15%;
+      width: 10rem;
+    }
+  </style>
   <body>
+    <!-- TODO add a timer -->
+    <!-- TODO it doesn't make sense that this is a btn -->
     <div id="item-to-find-btn">
-      <button style="margin-top: 2%; margin-left: 2%; border: solid black 5px">
-        <div class="card" style="width: 15rem">
-          <div class="card-body">
-            <h5 class="card-title">🍊 🍇 🍓</h5>
-          </div>
-        </div>
-      </button>
+      <div>
+        <button
+          class="item-btn btn btn-light"
+          id="item-1-btn"
+          style="margin-top: 2%; border: solid black 5px"
+        >
+          <h5 id="item-to-find" class="item">🍊 🍇 🍓</h5>
+        </button>
+      </div>
     </div>
 
-    <div class="container">
-      <div class="row" style="padding-top: 5%;">
+    <div id="items-grid" class="container">
+      <div class="row" style="padding-top: 5%">
         <div class="col-sm">
-          <div id="item-1-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-1-btn">
+              <h5 id="item-1" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
         <div class="col-sm">
-          <div id="item-2-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-2-btn">
+              <h5 id="item-2" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
         <div class="col-sm">
-          <div id="item-3-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-3-btn">
+              <h5 id="item-3" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
       </div>
-      <div class="row" style="padding-top: 5%;" >
+      <div class="row" style="padding-top: 5%">
         <div class="col-sm">
-          <div id="item-4-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-4-btn">
+              <h5 id="item-4" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
         <div class="col-sm">
-          <div id="item-5-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-5-btn">
+              <h5 id="item-5" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
         <div class="col-sm">
-          <div id="item-6-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-6-btn">
+              <h5 id="item-6" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
       </div>
-      <div class="row" style="padding-top: 5%;">
+      <div class="row" style="padding-top: 5%">
         <div class="col-sm">
-          <div id="item-7-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-7-btn">
+              <h5 id="item-7" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
         <div class="col-sm">
-          <div id="item-8-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-8-btn">
+              <h5 id="item-8" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
         <div class="col-sm">
-          <div id="item-9-btn">
-            <button>
-              <div class="card" style="width: 15rem">
-                <div class="card-body">
-                  <h5 class="card-title">🍊 🍇 🍓</h5>
-                </div>
-              </div>
+          <div>
+            <button class="item-btn btn btn-light" id="item-9-btn">
+              <h5 id="item-9" class="item">🍊 🍇 🍓</h5>
             </button>
           </div>
         </div>
       </div>
     </div>
 
-    <button class="btn btn-primary" disabled> 🎲 </button>
-    <button class="btn btn-primary" disabled> 👁️ </button>
+    <!-- TODO create this methods -->
+    <button class="btn btn-primary" disabled>🎲</button>
+    <button class="btn btn-primary" disabled>👁️</button>
 
     <script src="game.js"></script>
   </body>
